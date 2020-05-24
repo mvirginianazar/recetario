@@ -152,8 +152,11 @@ footer {
     grid-auto-flow: row;
   }
 
-  h2:hover {
+  .footer-receta:hover > h2 {
     font-size: 20px;
+  }
+
+  .footer-receta:hover {
     background-color: #ffd700;
   }
 }
