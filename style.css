@@ -138,18 +138,13 @@ footer {
 
   /* For desktop: */
 @media only screen and (min-width: 768px) {
-  .main {
+  main {
     display: grid;
-    grid-template-columns: repeat(5, 250px);
-    grid-template-rows: repeat(3, 300px);
-    grid-gap: 15px;
-    margin-top: 44px;
-    grid-auto-rows: 300px;
-    justify-items: center;
-    justify-content: center;
-    align-items: stretch;
-    align-content: center;
-    grid-auto-flow: row;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: 350px;
+    grid-auto-columns: 300px;
+    padding: 10px 19px 0px 19px;
+    justify-self: stretch;
   }
 
   .footer-receta:hover > h2 {
