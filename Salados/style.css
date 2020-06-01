@@ -76,7 +76,7 @@
 
 
 .footer-receta {
-  background-color: aquamarine;
+  background-color: 	#7fffd4;
   height: calc(100% - 250px);
   display: flex;
   flex-direction: column;
@@ -130,16 +130,46 @@ img {
 .header {
     font-family: 'Homemade Apple', cursive;
     color: #365c74;
-    background-color: aquamarine;  
+    background-color: 	#7fffd4;  
     word-spacing: 0.4em;
     text-align: center;
 
   }
   
-.container {
+.container-principal {
     margin: auto;
   }
   
+.barra-menu {
+  display: flex;
+  justify-content: start;
+  background-color: #B1FFDE;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 22px;
+  color: #365c74;
+}
+
+.Home-menu{
+margin: 15px;
+margin-right: 30px;
+margin-left: 30px;
+}
+.Categorias-menu {
+  margin: 15px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.Contacto-menu {
+  margin: 15px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+
 
 
 
@@ -185,7 +215,7 @@ h1.header {
   }
 
   .footer-receta:hover {
-    background-color: #ffd700;
+    background-color: #B1FFDE;
   }
 }
 
