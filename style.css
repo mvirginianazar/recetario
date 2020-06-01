@@ -42,9 +42,14 @@
 }
 
  
-main {
-    display: grid;
-    grid-template-columns: 300px;
+.flex-grid {
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+
+    /* grid-template-columns: 300px;
     grid-template-rows: 350px;
     grid-gap: 15px;
     margin-top: 44px;
@@ -55,9 +60,20 @@ main {
     align-content: center;
     grid-auto-flow: row;  
     padding: 10px 19px 0px 19px;
-    justify-self: stretch;
+    justify-self: stretch; */
     
   }
+
+  .flex-grid > div {
+    margin: 20px;
+    height: 375px;
+    width: 300px;
+    border-style: dotted;
+    border-color: #365c74;
+    border-width: 5px;
+    padding: 10px;
+  }
+
 
 .footer-receta {
   background-color: aquamarine;
@@ -70,7 +86,7 @@ main {
 
 h2 {
     font-family: 'Homemade Apple', cursive;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: 0.3px;
     text-align: left;
@@ -87,7 +103,7 @@ img {
   }
   
 .recipe {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.5);
   }
   
 .fa-clock {
@@ -138,14 +154,33 @@ footer {
 
   /* For desktop: */
 @media only screen and (min-width: 768px) {
-  main {
-    display: grid;
-    grid-template-columns: repeat(4, 300px);
+  .flex-grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+    /* grid-template-columns: repeat(4, 300px);
     grid-template-rows: 350px;
     grid-auto-columns: 300px;
     padding: 10px 19px 0px 19px;
-    justify-self: stretch;
+    justify-self: stretch; */
   }
+
+ .flex-grid > div {
+    margin: 20px;
+    height: 375px;
+    width: 300px;
+    border-style: dotted;
+    border-color: #365c74;
+    border-width: 5px;
+    padding: 10px;
+  }
+
+h1.header {
+  font-size: 50px;
+}
+
 
   .footer-receta:hover > h2 {
     font-size: 20px;
