@@ -1,0 +1,39 @@
+footer {
+    margin-top: 44px;
+    font-family: 'Homemade Apple', cursive;
+    color: #365c74;
+    background-color: aquamarine;  
+    word-spacing: 0.4em;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .copyright {
+    font-size: 10px;
+    text-align: right;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    align-self: flex-end;
+
+  }
+
+  .follow-us {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 45px;
+  }
+
+  .contact {
+    font-size: 13px;
+  }
+
+  .fa-linkedin {
+    font-size: 15px;
+  }
+
+  .fa-instagram-square {
+    font-size: 40px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+  }
