@@ -170,6 +170,22 @@ ul {
 }
 
 
+  /* listado categorias de la pagina principal */
+.listado-categorias {
+  display: flex;
+  justify-content: start;
+  background-color: #B1FFDE;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 15px;
+  color: #365c74;
+
+  
+}
+
+
+
+
+
 
 
 
