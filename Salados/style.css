@@ -96,7 +96,16 @@ h2 {
     line-height: 1.4;
   }
 
-  
+.icono {
+width: 30px;
+height:25px;
+padding-right: 10px;
+  }
+
+.categoria-nombre {
+ padding-bottom: 5px;
+  }
+
 img {
     width: 100%;
     height: 250px;
@@ -179,7 +188,7 @@ ul {
   font-size: 15px;
   color: #365c74;
 
-  
+
 }
 
 
