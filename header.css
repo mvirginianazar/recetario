@@ -1,0 +1,113 @@
+.header {
+  font-family: 'Homemade Apple', cursive;
+  color: #365c74;
+  background-color: 	#7fffd4;  
+  word-spacing: 0.4em;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.menu {
+  display: flex;
+  justify-content: start;
+  font-family: "Homemade Apple", cursive;
+  font-size: 22px;
+  color: #365c74;
+}
+
+.Home-menu {
+  margin: 15px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.Categorias-menu {
+  width: 300px;
+  margin: 15px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.listado-categorias {
+  display: flex;
+  justify-content: start;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 12px;
+  color: #365c74;
+}
+
+.categoria-nombre {
+  padding-bottom: 5px;
+}
+
+.icono {
+  width: 30px;
+  height:25px;
+  padding-right: 10px;
+}
+
+
+
+
+
+  
+.Contacto-menu {
+  margin: 15px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+  
+
+
+
+
+
+
+  
+
+
+
+/* esto es de prueba para el menu */
+
+.menu {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.menu li > a {
+  background-color: grey;
+  color: white;
+  padding: 15px;
+  display: block;
+  text-decoration: none;
+  min-width: 100px;
+}
+.menu li > a:hover {
+  color: #000;
+  background-color: #eaeaea;
+}
+.menu > li {
+  float: left;
+  text-align: center;
+}
+.menu > li > ul {
+  display: none;
+}
+.menu > li:hover > ul {
+  display: block;
+  text-align: left;
+}
+
+ul.listado-categorias {
+  padding: 0px 0px 0px 0px;
+}
+
+
+
+
+
+
+
