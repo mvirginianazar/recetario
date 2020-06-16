@@ -1,9 +1,13 @@
-.header {
+header  {
   font-family: 'Homemade Apple', cursive;
   color: #365c74;
-  background-color: 	#7fffd4;  
   word-spacing: 0.4em;
   text-align: center;
+  font-size: 22px;
+}
+
+.header-title {
+  background-color: 	#7fffd4;  
 }
 
 ul {
@@ -13,28 +17,26 @@ ul {
 .menu {
   display: flex;
   justify-content: start;
-  font-family: "Homemade Apple", cursive;
-  font-size: 22px;
-  color: #365c74;
+  height: 107px;
+  overflow: visible;
+  z-index: 1;
+  position: relative;
 }
 
-.Home-menu {
+.main-menu-entry {
   margin: 15px;
   margin-right: 30px;
   margin-left: 30px;
+  font-size: 19px;
 }
 
-.Categorias-menu {
+.categorias-menu {
   width: 300px;
-  margin: 15px;
-  margin-right: 30px;
-  margin-left: 30px;
 }
 
 .listado-categorias {
   display: flex;
   justify-content: start;
-  font-family: 'Homemade Apple', cursive;
   font-size: 12px;
   color: #365c74;
 }
@@ -54,12 +56,6 @@ ul {
 
 
   
-.Contacto-menu {
-  margin: 15px;
-  margin-right: 30px;
-  margin-left: 30px;
-}
-  
 
 
 
@@ -71,11 +67,6 @@ ul {
 
 
 /* esto es de prueba para el menu */
-
-.menu {
-  padding: 0;
-  margin: 0 auto;
-}
 
 .menu li > a {
   background-color: grey;
@@ -95,6 +86,7 @@ ul {
 }
 .menu > li > ul {
   display: none;
+  background-color: white;
 }
 .menu > li:hover > ul {
   display: block;
