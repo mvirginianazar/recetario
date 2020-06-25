@@ -71,7 +71,7 @@ ul {
 .menu li > a {
   background-color: grey;
   color: white;
-  padding: 15px;
+  padding: 5px;
   display: block;
   text-decoration: none;
   min-width: 100px;
