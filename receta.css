@@ -1,0 +1,163 @@
+/* latin */
+@font-face {
+    font-family: "Homemade Apple";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Homemade Apple Regular"), local("HomemadeApple-Regular"),
+      url(https://fonts.gstatic.com/s/homemadeapple/v10/Qw3EZQFXECDrI2q789EKQZJob0x6XHg.woff2)
+        format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+      U+FEFF, U+FFFD;
+  }
+  /* latin */
+  @font-face {
+    font-family: "Open Sans";
+    font-style: italic;
+    font-weight: 400;
+    src: local("Open Sans Italic"), local("OpenSans-Italic"),
+      url(https://fonts.gstatic.com/s/opensans/v17/mem6YaGs126MiZpBA-UFUK0Zdc0.woff2)
+        format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+      U+FEFF, U+FFFD;
+  }
+  /* latin */
+  @font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Open Sans Regular"), local("OpenSans-Regular"),
+      url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2)
+        format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+      U+FEFF, U+FFFD;
+  }
+  /* latin */
+  @font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Open Sans Bold"), local("OpenSans-Bold"),
+      url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2)
+        format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+      U+FEFF, U+FFFD;
+  }
+
+
+.receta-titulo {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 30px;
+    padding-left: 40px;
+    margin-bottom: 5px;
+}
+
+.bloque-img-porciones {
+    float: left;
+    width: 450px;
+    height: 500px;
+}
+
+/* xq no funciona el estilo de la imagen aplicado a su clase??
+.imagen-receta {
+    width: 400px;
+    height: 400px;
+    padding-left: 10px;
+    padding-right: 25px;
+} */
+img {
+    width: 400px;
+    height: 400px;
+    padding: 25px 25px 0px 25px;
+}
+    
+
+.porciones {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 10px;
+    padding-left: 25px;
+}
+
+.bloque-ingredientes {
+    font-family: 'Homemade Apple', cursive;
+    height: 500px;
+    width: 500px;
+    clear: left;
+    display: inline-block;
+
+}
+
+.titulo-ingredientes {
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.listado-ingredientes {
+    font-size: 15px;
+    list-style-type: square;
+}
+
+hr {width: 90%;
+    height: 5px;
+    background-color:#666;
+}
+
+.bloque-procedimiento{
+    font-family: 'Homemade Apple', cursive;
+    font-size: 20px;
+}
+
+.titulo-procedimiento {
+    padding-left: 25px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.listado-procedimiento {
+    font-size: 15px;
+}
+
+.listado-procedimiento li {
+    margin-bottom: 10px;
+}
+
+
+.container {
+    height: 50px;
+    position: relative;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.compartir {
+    font-family: 'Homemade Apple', cursive;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s; /*chetaaaasooooo*/
+
+
+}
+
+.compartir:hover {
+    background-color: pink;
+    color: white;
+  }
