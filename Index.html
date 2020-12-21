@@ -4,11 +4,22 @@
     <meta charset="utf-8">
     <title>Carnes</title>
     <link rel="stylesheet" type="text/css" href="reset.css" />
-    <link rel="stylesheet" type="text/css" href="../Salados/style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="Footer.css" />
     <link rel="stylesheet" type="text/css" href="header.css" />
+    <script src="snow.js"></script>
+
+    <!-- CSS rules to specify families (nuevos 2x fonts elegidos):
+    font-family: 'Arima Madurai', cursive;
+    font-family: 'Roboto', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@200;400;700;900&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+
+
+    <!-- fonts previos:
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">  
+    -->
     <script src="https://kit.fontawesome.com/07258a0b4c.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -16,10 +27,10 @@
 <body>
 
     <header>
-        <h1 class="header-title">Pupi's Recetario<h1>
+        <h1 class="header-title">Recetario :)<h1>
                 <nav>
                     <ul class="menu">
-                        <li class="main-menu-entry"><a href="">Home</a></li>
+                        <li class="main-menu-entry"><a href="./Index.html">Home</a></li>
                         <li class="categorias-menu main-menu-entry">
                             <a href="">Categorias</a>
                             <ul class="listado-categorias">
@@ -27,9 +38,8 @@
                                 <li class="categoria-nombre"><a href=""><img class="icono" src="./184499-food/png/bread.png"/>Panes y masas</a></li>
                                 <li class="categoria-nombre"><a href=""><img class="icono" src="./184499-food/png/pasta.png" />Pastas</a></li>
                                 <li class="categoria-nombre"><a href=""><img class="icono" src="./184499-food/png/soya.png" />Salsas</a></li>
-                                <li class="categoria-nombre"><a href=""><img class="icono" src="./184499-food/png/prawn.png" />Pescados y mariscos</a></li>
+                                <li class="categoria-nombre"><a href=""><img class="icono" src="./184499-food/png/prawn.png" />Pescados y Mariscos</a></li>
                                 <li class="categoria-nombre"><a href=""><img class="icono" src="./184499-food/png/chicken-leg.png" />Pollo</a></li>
-                                <li class="categoria-nombre"><a href=""><img class="icono" src="./184499-food/png/steak.png" />Carnes rojas</a></li>
                                 <li class="categoria-nombre"><a href=""><img class="icono" src="./184499-food/png/steak.png" />Carnes rojas</a></li>
                                 <li class="categoria-nombre"><a href=""><img class="icono" src="./184499-food/png/bell-pepper.png" />Verduras</a></li>
                                 <li class="categoria-nombre"><a href=""><img class="icono" src="./184499-food/png/rice.png" />Arroces y cereales</a></li>
@@ -37,11 +47,10 @@
                                 <li class="categoria-nombre"><a href=""><img class="icono" src="./184499-food/png/salad.png" />Ensaladas</a></li>
                                 <li class="categoria-nombre"><a href=""><img class="icono" src="./184499-food/png/onion-rings.png" />Guarniciones</a></li>
                                 <li class="categoria-nombre"><a href=""><img class="icono" src="./184499-food/png/fried-egg.png" />Huevos</a></li>
-                                <li class="categoria-nombre"><a href=""><img class="icono" src="./184499-food/png/pie.png" />Tartas/empanadas y sandwiches</a></li>
+                                <li class="categoria-nombre"><a href=""><img class="icono" src="./184499-food/png/pie.png" />Tartas, Empanadas y sandwiches</a></li>
                                 <li class="categoria-nombre"><a href=""><img class="icono" src="./184499-food/png/brochette.png" />Entradas y canapes</a></li>
-                                <li class="categoria-nombre"><a href=""><img class="icono" src="./184499-food/png/pancakes.png" />Desayunos/meriendas</a></li>
+                                <li class="categoria-nombre"><a href=""><img class="icono" src="./184499-food/png/pancakes.png" />Desayunos / Meriendas</a></li>
                                 <li class="categoria-nombre"><a href=""><img class="icono" src="./184499-food/png/gingerbread-man.png" />Celiacos</a></li>
-                                <li class="categoria-nombre"><a href=""><img class="icono" src="./184499-food/png/steak.png" />Carnes rojas</a></li>
                                 <li class="categoria-nombre"><a href=""><img class="icono" src="./184499-food/png/drink.png" />Bebidas y cocteles</a></li>
                             </ul>
                         </li>
@@ -55,8 +64,9 @@
     <div class="container-principal">
 
         <main class="flex-grid">
-            <div class="col" class="recipe a">
-                <img src="./Salados/GuisoLentejasP.jpg" />
+            <div class="col" class="recipe a" 
+            onclick="onReceipeClicked('guisoDeLenteja')">
+                <img src="./Imagenes/GuisoLentejasP.jpg" />
                 <div class="footer-receta">
                     <h2 class="nombre-receta">Guiso de lentejas</h2>
                     <span>
@@ -66,8 +76,9 @@
                 </div>
             </div>
 
-            <div class="col" class="recipe b">
-                <img src="./Salados/Braised ShortRibsP.jpg" />
+            <div class="col" class="recipe b"
+            onclick="onReceipeClicked('shortRibs')">
+                <img src="./Imagenes/Braised ShortRibsP.jpg" />
                 <div class="footer-receta">
                     <h2 class="nombre-receta">Slow cooked short ribs</h2>
                     <span>
@@ -78,9 +89,9 @@
             </div>
 
             <div class="col" class="recipe c">
-                <img src="./Salados/PolloCrumble ParmesanoP.jpg" />
+                <img src="./Imagenes/PolloCrumble ParmesanoP.jpg" />
                 <div class="footer-receta">
-                    <h2 class="nombre-receta">Pollo con costra de queso parmesano</h2>
+                    <h2 class="nombre-receta">Suprema con queso parmesano</h2>
                     <span>
                         <i class="fas fa-clock"></i>
                         <p class="mins">1 hs 15 min</p>
@@ -89,7 +100,7 @@
             </div>
 
             <div class="col" class="recipe d">
-                <img src="./Salados/RisottoCakesP.jpg" />
+                <img src="./Imagenes/RisottoCakesP.jpg" />
                 <div class="footer-receta">
                     <h2 class="nombre-receta">Risotto cakes (croquetas de risotto)</h2>
                     <span>
@@ -100,7 +111,7 @@
             </div>
 
             <div class="col" class="recipe e">
-                <img src="./Salados/RisottoPolloChampP.jpg" />
+                <img src="./Imagenes/RisottoPolloChampP.jpg" />
                 <div class="footer-receta">
                     <h2 class="nombre-receta">Risotto de pollo y champiniones</h2>
                     <span>
@@ -111,7 +122,7 @@
             </div>
 
             <div class="col" class="recipe f">
-                <img src="./Salados/Braised ShortRibsP.jpg" />
+                <img src="./Imagenes/Braised ShortRibsP.jpg" />
                 <div class="footer-receta">
                     <h2 class="nombre-receta">Slow cooked short ribs</h2>
                     <span>
@@ -122,7 +133,7 @@
             </div>
 
             <div class="col" class="recipe e">
-                <img src="./Salados/Braised ShortRibsP.jpg" />
+                <img src="./Imagenes/Braised ShortRibsP.jpg" />
                 <div class="footer-receta">
                     <h2 class="nombre-receta">Slow cooked short ribs</h2>
                     <span>
@@ -133,7 +144,7 @@
             </div>
 
             <div class="col" class="recipe f">
-                <img src="./Salados/Braised ShortRibsP.jpg" />
+                <img src="./Imagenes/Braised ShortRibsP.jpg" />
                 <div class="footer-receta">
                     <h2 class="nombre-receta">Slow cooked short ribs</h2>
                     <span>
@@ -144,7 +155,7 @@
             </div>
 
             <div class="col" class="recipe a">
-                <img src="./Salados/Braised ShortRibsP.jpg" />
+                <img src="./Imagenes/Braised ShortRibsP.jpg" />
                 <div class="footer-receta">
                     <h2 class="nombre-receta">Slow cooked short ribs</h2>
                     <span>
@@ -155,7 +166,7 @@
             </div>
 
             <div class="col" class="recipe b">
-                <img src="./Salados/Braised ShortRibsP.jpg" />
+                <img src="./Imagenes/Braised ShortRibsP.jpg" />
                 <div class="footer-receta">
                     <h2 class="nombre-receta">Slow cooked short ribs</h2>
                     <span>
@@ -166,7 +177,7 @@
             </div>
 
             <div class="col" class="recipe c">
-                <img src="./Salados/Braised ShortRibsP.jpg" />
+                <img src="./Imagenes/Braised ShortRibsP.jpg" />
                 <div class="footer-receta">
                     <h2 class="nombre-receta">Slow cooked short ribs</h2>
                     <span>
@@ -177,7 +188,7 @@
             </div>
 
             <div class="col" class="recipe d">
-                <img src="./Salados/Braised ShortRibsP.jpg" />
+                <img src="./Imagenes/Braised ShortRibsP.jpg" />
                 <div class="footer-receta">
                     <h2 class="nombre-receta">Slow cooked short ribs</h2>
                     <span>
@@ -188,7 +199,7 @@
             </div>
 
             <div class="col" class="recipe e">
-                <img src="./Salados/Braised ShortRibsP.jpg" />
+                <img src="./Imagenes/Braised ShortRibsP.jpg" />
                 <div class="footer-receta">
                     <h2 class="nombre-receta">Slow cooked short ribs</h2>
                     <span>
@@ -223,5 +234,7 @@
     </footer>
 
 </body>
+
+<script src="./index.js"></script>
 
 </html>

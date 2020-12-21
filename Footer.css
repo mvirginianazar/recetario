@@ -1,14 +1,17 @@
 footer {
     margin-top: 44px;
-    font-family: 'Homemade Apple', cursive;
+    font-family: 'Roboto', sans-serif;
     color: #365c74;
-    background-color: aquamarine;  
+    background-color: var(--bg-secondary);  
     word-spacing: 0.4em;
     text-align: center;
     display: flex;
     justify-content: space-between;
   }
   
+  
+
+
   .copyright {
     font-size: 10px;
     text-align: right;
