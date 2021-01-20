@@ -35,3 +35,8 @@ function onReceipeClicked(configId) {
   function showAlertInstagram() {
     alert("Instagram is under construction :)");
   }
+
+  // alerta imagen linkedin
+  function showAlertLinkedin() {
+    alert("Linkedin is under construction :)");
+  }

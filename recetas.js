@@ -12,3 +12,8 @@ elementTitulo.innerText = configReceta.title;
 function showAlertInstagram() {
     alert("Instagram is under construction :)");
   }
+
+// alerta imagen linkedin
+function showAlertLinkedin() {
+   alert("Linkedin is under construction :)");
+}
