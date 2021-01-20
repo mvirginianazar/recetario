@@ -8,3 +8,7 @@ const elementTitulo = document.getElementById("receta-titulo");
 elementTitulo.innerText = configReceta.title;
 
 
+// alerta imagen instagram
+function showAlertInstagram() {
+    alert("Instagram is under construction :)");
+  }

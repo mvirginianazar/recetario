@@ -26,3 +26,12 @@ function onReceipeClicked(configId) {
     window.location.href = "/receta-detalle-template.html"
 }
 
+
+
+
+
+
+// alerta imagen instagram
+  function showAlertInstagram() {
+    alert("Instagram is under construction :)");
+  }
