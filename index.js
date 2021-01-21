@@ -4,7 +4,7 @@
 
 let config = { 
     guisoDeLenteja: { 
-        title: "Guiso de Lentejas",
+        title: "Guiiiiiso de Lentejas",
         procedimiento: [
             "En una cacerola rehogar la cebolla, el ajo y la zanahoria en aceite. Agregar el morrón cortado en pequeños trozos.cortar y preparar vegetales.En una cacerola rehogar la cebolla, el ajo y la zanahoria en aceite. Agregar el morrón cortado en pequeños trozos.cortar y preparar vegetales",
             "cocinarIncorporar la carne al rehogado. Condimentar con pimienta y las hierbas aromáticas. Verter el vino y dejar evaporar el alcohol."
@@ -19,7 +19,7 @@ let config = {
     }
 }
 
-function onReceipeClicked(configId) {
+function onRecipeClicked(configId) {
     const selectedReceipe = config[configId];
     console.log(selectedReceipe);
     localStorage.setItem('vicky', JSON.stringify(selectedReceipe) );
