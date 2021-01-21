@@ -13,13 +13,13 @@ var snowColor = ["#DDD", "#EEE"];
 var snowEntity = "&#x2022;";
 
 // Falling Velocity
-var snowSpeed = 0.30;
+var snowSpeed = 0.20;
 
 // Minimum Flake Size
-var snowMinSize = 30;
+var snowMinSize = 20;
 
 // Maximum Flake Size
-var snowMaxSize = 50;
+var snowMaxSize = 40;
 
 // Refresh Rate (in milliseconds)
 var snowRefresh = 25;
