@@ -5,6 +5,8 @@
     <title>Recetario - Recetas de Postres y Dulces</title>
     <link rel="stylesheet" type="text/css" href="reset.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="Footer.css" />
+    <link rel="stylesheet" type="text/css" href="header.css" />
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
     <script src="https://kit.fontawesome.com/07258a0b4c.js" crossorigin="anonymous"></script>
@@ -13,8 +15,41 @@
 
 <body>
 
-    <div class="container">
+    <header>
+        <h1 class="header-title">Recetario :)<h1>
+                <nav>
+                    <ul class="menu">
+                        <li class="main-menu-entry"><a href="./Index.html">Home</a></li>
+                        <li class="categorias-menu main-menu-entry">
+                            <a href="">Categorias</a>
+                            <ul class="listado-categorias">
+                                <li class="categoria-nombre"><a href="./categoria-listado-template.html"><img class="icono" src="./184499-food/png/cupcake.png"/>Postres y dulces</a></li>
+                                <li class="categoria-nombre"><a href="./categoria-listado-template.html"><img class="icono" src="./184499-food/png/bread.png"/>Panes y masas</a></li>
+                                <li class="categoria-nombre"><a href="./categoria-listado-template.html"><img class="icono" src="./184499-food/png/pasta.png" />Pastas</a></li>
+                                <li class="categoria-nombre"><a href="./categoria-listado-template.html"><img class="icono" src="./184499-food/png/soya.png" />Salsas</a></li>
+                                <li class="categoria-nombre"><a href="./categoria-listado-template.html"><img class="icono" src="./184499-food/png/prawn.png" />Pescados y Mariscos</a></li>
+                                <li class="categoria-nombre"><a href="./categoria-listado-template.html"><img class="icono" src="./184499-food/png/chicken-leg.png" />Pollo</a></li>
+                                <li class="categoria-nombre"><a href="./categoria-listado-template.html"><img class="icono" src="./184499-food/png/steak.png" />Carnes rojas</a></li>
+                                <li class="categoria-nombre"><a href="./categoria-listado-template.html"><img class="icono" src="./184499-food/png/bell-pepper.png" />Verduras</a></li>
+                                <li class="categoria-nombre"><a href="./categoria-listado-template.html"><img class="icono" src="./184499-food/png/rice.png" />Arroces y cereales</a></li>
+                                <li class="categoria-nombre"><a href="./categoria-listado-template.html"><img class="icono" src="./184499-food/png/soup.png" />Sopas, guisos y legumbres</a></li>
+                                <li class="categoria-nombre"><a href="./categoria-listado-template.html"><img class="icono" src="./184499-food/png/salad.png" />Ensaladas</a></li>
+                                <li class="categoria-nombre"><a href="./categoria-listado-template.html"><img class="icono" src="./184499-food/png/onion-rings.png" />Guarniciones</a></li>
+                                <li class="categoria-nombre"><a href="./categoria-listado-template.html"><img class="icono" src="./184499-food/png/fried-egg.png" />Huevos</a></li>
+                                <li class="categoria-nombre"><a href="./categoria-listado-template.html"><img class="icono" src="./184499-food/png/pie.png" />Tartas, Empanadas y sandwiches</a></li>
+                                <li class="categoria-nombre"><a href="./categoria-listado-template.html"><img class="icono" src="./184499-food/png/brochette.png" />Entradas y canapes</a></li>
+                                <li class="categoria-nombre"><a href="./categoria-listado-template.html"><img class="icono" src="./184499-food/png/pancakes.png" />Desayunos / Meriendas</a></li>
+                                <li class="categoria-nombre"><a href="./categoria-listado-template.html"><img class="icono" src="./184499-food/png/gingerbread-man.png" />Celiacos</a></li>
+                                <li class="categoria-nombre"><a href="./categoria-listado-template.html"><img class="icono" src="./184499-food/png/drink.png" />Bebidas y cocteles</a></li>
+                            </ul>
+                        </li>
+                        <li class="main-menu-entry"><a href="#contact">Contacto</a></li>
+                    </ul>
+                </nav>
+    </header>
 
+
+    <div class="container">
         <header>
             <h1 class="header"> Recetas de Postres y Dulces<h1>
         </header>
@@ -111,12 +146,31 @@
                 </div>
             </div>
         </main>
-
-        <footer>
-
-        </footer>
-
     </div>
+
+    <footer>
+        <!-- redes sociales -->
+        <div class="follow-us">
+            <p><strong>Seguinos</strong></p>
+            <i class="fab fa-instagram-square" onclick="showAlertInstagram()"></i>
+        </div>
+
+        <!-- contacto -->
+        <div id="contact" class="contact">
+            <p><strong>Contacto:</strong> mvirginianazar@gmail.com</p>
+            <p><i class="fab fa-linkedin" onclick="showAlertLinkedin()"></i> linkedin</p>
+        </div>
+
+        <!-- copyright -->
+        <div class="copyright">
+            <p>© Pupi's Recetario 2020</p>
+            <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from
+                <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        </div>
+    </footer>
+
 </body>
+
+<script src="./index.js"></script>
 
 </html>
