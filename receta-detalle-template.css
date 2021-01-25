@@ -147,3 +147,16 @@ hr {width: 90%;
     position: relative;
     padding-left: 7px;
   }
+
+  .porciones {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    list-style-type: square;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #4a4a4a;
+    position: relative;
+    padding-left: 7px;
+  }
